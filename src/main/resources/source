@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PaymentCardResponse>
+    <body>
+        <PaymentCard>
+            <account>40817810200999999999</account>
+            <balance>12345.0</balance>
+            <blocking>1</blocking>
+            <cardNumber>3007999111999035</cardNumber>
+            <cardNumberMask>3007********9035</cardNumberMask>
+            <cardholderName>Иванов Иван Иванович</cardholderName>
+            <designId>0000001</designId>
+            <embossedName>IVAN IVANOV</embossedName>
+            <expirationDate>2023-04-20T11:19:58+03:00</expirationDate>
+            <limits>
+                <PaymentCardLimits>
+                    <limits>
+                        <PaymentCardLimit>
+                            <limitTypeId>3001</limitTypeId>
+                            <operationCount>10</operationCount>
+                            <operationCountMax>10</operationCountMax>
+                            <operationCountRest>0</operationCountRest>
+                        </PaymentCardLimit>
+                        <PaymentCardLimit>
+                            <amountMax>30000.00</amountMax>
+                            <limitTypeId>3002</limitTypeId>
+                            <rest>0.00</rest>
+                            <summ>30000.00</summ>
+                        </PaymentCardLimit>
+                    </limits>
+                </PaymentCardLimits>
+            </limits>
+        </PaymentCard>
+        <PaymentCard>
+            <account>40817810200999999999</account>
+            <balance>0.0</balance>
+            <blocking>1</blocking>
+            <cardNumber>3007999111999036</cardNumber>
+            <cardNumberMask>3007********9036</cardNumberMask>
+            <cardholderName>Иванов Иван Иванович</cardholderName>
+            <designId>0000002</designId>
+            <embossedName>IVAN IVANOV</embossedName>
+            <expirationDate>2023-04-20T11:19:58+03:00</expirationDate>
+            <limits>
+                <PaymentCardLimits>
+                    <limits>
+                        <PaymentCardLimit>
+                            <limitTypeId>3001</limitTypeId>
+                            <operationCount>20</operationCount>
+                            <operationCountMax>20</operationCountMax>
+                            <operationCountRest>0</operationCountRest>
+                        </PaymentCardLimit>
+                        <PaymentCardLimit>
+                            <amountMax>50000.00</amountMax>
+                            <limitTypeId>3002</limitTypeId>
+                            <rest>0.00</rest>
+                            <summ>50000.00</summ>
+                        </PaymentCardLimit>
+                    </limits>
+                </PaymentCardLimits>
+            </limits>
+        </PaymentCard>
+    </body>
+    <head>
+        <branchId>ABSINTERN</branchId>
+        <customerId>C1</customerId>
+        <result>OK</result>
+        <subSys>ABS</subSys>
+    </head>
+</PaymentCardResponse>
